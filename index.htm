@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Laatkomers</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    
+    <link rel="apple-touch-icon" href="Images/touch-icon-iphone.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="Images/touch-icon-ipad.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="Images/touch-icon-iphone-retina.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="Images/touch-icon-ipad-retina.png" />
+    <link rel="apple-touch-startup-image" href="Images/startup.png" />
+    
+    <link type="text/css" rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+</head>
+<body>
+    <div data-role="page" id="home" data-add-back-btn="false">
+        <div data-role="header" data-position="fixed">
+                <h1>Laatkomers</h1>
+        </div>
+        <div data-role="content">
+            <ul data-role="listview" data-inset="true" data-filter="false">
+                <li>
+                    <a href="AddLaatkomer.htm" data-ajax="false">Laatkomer toevoegen</a>
+                </li>
+                <li>
+                    <a href="Overzicht.htm" data-ajax="false">Overzicht van alle laatkomers vandaag</a>
+                </li>
+            </ul>
+        </div>
+             
+        <div id="footer" data-role="footer" data-position="fixed">
+            <div data-role="navbar">
+		        <ul>
+			        <li><a href="index.htm" data-iconpos="top" data-icon="home">Start</a></li>
+			        <li><a href="AddLaatkomer.htm" data-iconpos="top" data-icon="plus">Toevoegen</a></li>
+			        <li><a href="Overzicht.htm"  data-iconpos="top" data-icon="grid">Overzicht</a></li>
+		        </ul>
+	        </div><!-- /navbar -->
+        </div>
+    </div>
+</body>
+</html>
